@@ -64,6 +64,7 @@ Switch branches or restore working tree files
 ## *git merge*
 To merge a different branch into your active branch.
     git merge <branch name>
+![merge](Images/merge.PNG)
 
 ## *git push*
 Push all branches to your remote repository:
@@ -77,6 +78,7 @@ Delete a branch on your remote repository:
 ## *git pull*
 Fetch and merge changes on the remote server to your working directory.
     git pull
+![pull](Images/pull.PNG)
 
 ## *git remote*
 If you haven't connected your local repository to a remote server, add the server to be able to push to it.
