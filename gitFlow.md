@@ -45,7 +45,7 @@ List all the branches in your repo, and also tell you what branch you're current
 
 Create a new branch and switch to it:
     git checkout -b <branch name>
-![branch2](Images/branch 2.PNG)
+![branch2](Images/branch2.PNG)
 
 Switch from one branch to another:
     git checkout <branch name>
