@@ -59,6 +59,7 @@ This command commits any files you've added with the git add command and also co
 ## *git checkout*
 Switch branches or restore working tree files
    git checkout <branch name>
+![checkout](Images/checkout.PNG)
 
 ## *git merge*
 To merge a different branch into your active branch.
@@ -100,6 +101,7 @@ If you want to remove a remote for some reason- you've moved a server or no long
 ## *git status*
 List the files you've changed and those you still need to add or commit.
     git status
+![status](Images/status.PNG)
 
 ## *git reset*
 Reset current HEAD to the specified state.
