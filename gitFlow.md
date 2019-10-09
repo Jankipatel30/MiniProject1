@@ -71,6 +71,7 @@ This command sends the committed changes of master branch to your remote reposit
     git push [variable name] master
 Delete a branch on your remote repository:
     git push origin :<branch name>
+![push](Images/push.png)
 
 ## *git pull*
 Fetch and merge changes on the remote server to your working directory.
@@ -81,6 +82,7 @@ If you haven't connected your local repository to a remote server, add the serve
     git remote add origin <server>
 List all currently configured remote repositories:
     git remote -v
+![remote](Images/remote.PNG)
 
 ## *git show*
 Show various types of objects.
