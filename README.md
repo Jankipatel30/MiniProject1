@@ -5,8 +5,8 @@ Under the guidence of **Prof. Keith Williams**,in this project we have  explaine
 **Project by - Jimisha Patel & Janki Kachhiapatel**
 
 ## **Index**
-[File System and vi commands](https://github.com/Jankipatel30/MiniProject1/blob/master/Linux.md)
+-[File System and vi commands](https://github.com/Jankipatel30/MiniProject1/blob/master/Linux.md)
 
-[Gitflow](https://github.com/Jankipatel30/MiniProject1/blob/master/gitFlow.md)
+-[Gitflow](https://github.com/Jankipatel30/MiniProject1/blob/master/gitFlow.md)
 
-[sources](https://www.example.com)
+-[sources](https://github.com/Jankipatel30/MiniProject1/blob/master/source.md)
