@@ -1,4 +1,4 @@
-﻿Let's start to understand gitFlow
+﻿## *Let's start to understand gitFlow*
 gitFlow is a branching model for Git.It is very well suited to collaboration and scaling the development team.
 Key Benefits:
 1. Parallel Development : GitFlow is that it makes parallel development very easy, 
@@ -10,39 +10,43 @@ Key Benefits:
 4. Support For Emergency Fixes : GitFlow supports hotfix branches - branches made from a tagged release. 
                                  You can use these to make an emergency change, safe in the knowledge that the hotfix will only contain your emergency fix
 
-Now Let's start to understand Git Commands
+## Now Let's start to understand Git Commands
 ## *Repository* :
 Git manages the set of projects, as they change over time. Git stores this information in data structure called Repository.
 Your Project's repository contains all of your project's file and stores each file's revision history.
 For user-owned repositories, you can give other people collaborator access so that they can collaborate on your project. 
 If a repository is owned by an organization, you can give organization members access permissions to collaborate on your repository. 
-![Repository](/Images/Repository.png)
+![Repository](Images/Repository.png)
 
 ## *git config*
 Configure the author name and email address to be used with your commits.
     git config --global user.name "Name"
     git config --global user.email "Email address"
-![config](/Images/config.png)
+![config](Images/config.png)
 
 ## *git init*
 This command is used to start a new repository.
 	git init[Respository Name]
-![init](/Images/init.png)
+![init](Images/init.png)
 
 ## *git clone*
 Create a local copy in your computer from your remote repository.
     git clone [URL]
-![clone](/Images/clone.png)
+![clone](Images/clone.png)
 
 ## *git fork*
 Forks are used to either propose changes to someone else's project or to use someone else's project as starting point of your own idea.
-![fork](/Images/fork.png)
+![fork](Images/fork.png)
 
 ## *git branch*
 List all the branches in your repo, and also tell you what branch you're currently in.
     git branch
+![branch](Images/branch.png)
+
 Create a new branch and switch to it:
     git checkout -b <branch name>
+![branch2](Images/branch 2.png)
+
 Switch from one branch to another:
     git checkout <branch name>
 
@@ -50,6 +54,7 @@ Switch from one branch to another:
 This command records or snapshots the file permanently in the version history.
 This command commits any files you've added with the git add command and also commits any files you've changed since then.
 	git commit -a
+![commit](Images/commit.png)
 
 ## *git checkout*
 Switch branches or restore working tree files
@@ -84,6 +89,7 @@ Show various types of objects.
 ## *git add*
 After you have manually resolved any conflicts, you mark the changed file.
     git add <filename>
+![Add](Images/add.png)
 
 ## *git remove*
 If you want to remove a remote for some reason- you've moved a server or no longer using the particular mirror, use:
@@ -92,6 +98,13 @@ If you want to remove a remote for some reason- you've moved a server or no long
 ## *git status*
 List the files you've changed and those you still need to add or commit.
     git status
+
+## *git reset*
+Reset current HEAD to the specified state.
+This command unstages the file, but it preserves the file contents.
+    git reset [file]
+This command discards all history and goes back to the specified commit.
+    git reset -hard [commit]  
 
 
 
