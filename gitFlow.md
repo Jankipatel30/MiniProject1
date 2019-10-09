@@ -16,36 +16,36 @@ Git manages the set of projects, as they change over time. Git stores this infor
 Your Project's repository contains all of your project's file and stores each file's revision history.
 For user-owned repositories, you can give other people collaborator access so that they can collaborate on your project. 
 If a repository is owned by an organization, you can give organization members access permissions to collaborate on your repository. 
-![Repository](Images/Repository.png)
+![Repository](Images/Repository.PNG)
 
 ## *git config*
 Configure the author name and email address to be used with your commits.
     git config --global user.name "Name"
     git config --global user.email "Email address"
-![config](Images/config.png)
+![config](Images/config.PNG)
 
 ## *git init*
 This command is used to start a new repository.
 	git init[Respository Name]
-![init](Images/init.png)
+![init](Images/init.PNG)
 
 ## *git clone*
 Create a local copy in your computer from your remote repository.
     git clone [URL]
-![clone](Images/clone.png)
+![clone](Images/clone.PNG)
 
 ## *git fork*
 Forks are used to either propose changes to someone else's project or to use someone else's project as starting point of your own idea.
-![fork](Images/fork.png)
+![fork](Images/fork.PNG)
 
 ## *git branch*
 List all the branches in your repo, and also tell you what branch you're currently in.
     git branch
-![branch](Images/branch.png)
+![branch](Images/branch.PNG)
 
 Create a new branch and switch to it:
     git checkout -b <branch name>
-![branch2](Images/branch 2.png)
+![branch2](Images/branch 2.PNG)
 
 Switch from one branch to another:
     git checkout <branch name>
@@ -54,7 +54,7 @@ Switch from one branch to another:
 This command records or snapshots the file permanently in the version history.
 This command commits any files you've added with the git add command and also commits any files you've changed since then.
 	git commit -a
-![commit](Images/commit.png)
+![commit](Images/commit.PNG)
 
 ## *git checkout*
 Switch branches or restore working tree files
@@ -71,7 +71,7 @@ This command sends the committed changes of master branch to your remote reposit
     git push [variable name] master
 Delete a branch on your remote repository:
     git push origin :<branch name>
-![push](Images/push.png)
+![push](Images/push.PNG)
 
 ## *git pull*
 Fetch and merge changes on the remote server to your working directory.
@@ -91,7 +91,7 @@ Show various types of objects.
 ## *git add*
 After you have manually resolved any conflicts, you mark the changed file.
     git add <filename>
-![Add](Images/add.png)
+![Add](Images/add.PNG)
 
 ## *git remove*
 If you want to remove a remote for some reason- you've moved a server or no longer using the particular mirror, use:
