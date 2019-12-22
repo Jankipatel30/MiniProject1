@@ -51,7 +51,7 @@ This section gives a high-level description of the twenty-three design patterns 
 - Visitor
 - Template Method
 
-###4. Class
+### 4. Class
 A class is a code template for creating objects in Python. Objects have member variables and have behaviour associated with them.
 Classes provide a means of bundling data and functionality together.
 
@@ -63,5 +63,22 @@ To create a class, use the keyword class:
     .
     .
     <statement-N>
+  
+### 5. Object
+Objects have individuality, and multiple names (in multiple scopes) can be bound to the same object. This is known as aliasing in other languages.
+Objects get their variables and functions from classes.
 
+   class MyClass:
+    """A simple example class"""
+    i = 12345
+
+   def f(self):
+        return 'hello world'
+        
+### 6. Static
+Static method can neither modify object state nor class state. Static methods are restricted in what data they can access - and they’re primarily a way to namespace your methods.
+ This means that a static method can be called without an object for that class.
+ Python Static methods can be created in two ways. Let’s see each of the ways here:
+ 1. Using staticmethod()
+ 2. Using @staticmethod
 
