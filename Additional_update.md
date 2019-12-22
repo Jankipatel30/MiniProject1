@@ -105,4 +105,7 @@ You can raise an exception in your own program by using the raise exception stat
 Raising an exception breaks current code execution and returns the exception back until it is handled.
 
 ### 10. Unit Test
+The unittest unit testing framework was originally inspired by JUnit and has a similar flavor as major unit testing frameworks in other languages. It supports test automation, sharing of setup and shutdown code for tests, aggregation of tests into collections, and independence of the tests from the reporting framework.
+
+specifically tests a single "unit" of code in isolation. A unit could be an entire module, a single class or function, or almost anything in between. What's important, however, is that the code is isolated from other code we're not testing (which itself could have errors and would thus confuse test results).
 
